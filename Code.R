@@ -9,7 +9,7 @@ library(nnet)
 library(gbm)
 
 # Load data
-data <- read.csv("FullDataset.csv", stringsAsFactors = FALSE)
+data <- read.csv("consumer_interactions.csv", stringsAsFactors = FALSE)
 any(is.na(data$Region))
 any(is.na(data$State))
 any(is.na(data$Area))
